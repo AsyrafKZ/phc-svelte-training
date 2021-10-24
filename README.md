@@ -1,6 +1,6 @@
 # Svelte Training
 
-For learning Svelte. For now it is only a static webpage.
+For Svelte learning. For now it is only a static webpage.
 User can register new patients, edit patients and read patients' detail.
 
 ## To-do
