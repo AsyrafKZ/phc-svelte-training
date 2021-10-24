@@ -7,6 +7,7 @@ User can register new patients, edit patients and read patients' detail.
 
 Add the following capabilies:
 
+- dockerize the repo
 - fetch patient list from API (either from open server or local server)
 - add pagination
 - ...
