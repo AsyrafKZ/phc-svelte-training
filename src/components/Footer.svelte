@@ -1,5 +1,5 @@
 <footer>
-    <div class="copyright">Social Technology Lab Kobe 2021</div>
+    <div class="copyright">Social Technology Lab 2021</div>
 </footer>
 
 <style>

@@ -1,4 +1,6 @@
 <script lang="ts">
+  import "medblocks-ui"
+  import "medblocks-ui/dist/shoelace"
   import { items, activeTab } from "./store/stores";
   import Header from "./components/Header.svelte";
   import Footer from "./components/Footer.svelte";
@@ -7,6 +9,7 @@
   import Tabs from "./shared/Tabs.svelte";
   import PatientDetail from "./components/PatientDetail.svelte";
   import EditPatient from "./components/EditPatient.svelte";
+import VitalsForm from "./components/VitalsForm.svelte";
 </script>
 
 <main>
@@ -16,6 +19,8 @@
     <PatientsList />
   {:else if $activeTab === "Register Patient"}
     <RegisterPatient />
+  {:else if $activeTab === "Vitals Form"}
+  <VitalsForm/>
   {:else if $activeTab === "Patient Details"}
     <PatientDetail />
   {:else if $activeTab === "Edit Patient"}

@@ -1,6 +1,6 @@
 import { writable, derived } from "svelte/store";
 
-export const items = writable(["Patients List", "Register Patient"]);
+export const items = writable(["Patients List", "Register Patient", "Vitals Form"]);
 export const activeTab = writable("Patients List");
 export const patients = writable([
   {

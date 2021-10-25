@@ -6,9 +6,9 @@
   };
 </script>
 
-<button on:click={handleReturn}>Return</button>
+<sl-button type="neutral" on:click={handleReturn}>Return</sl-button>
 
-<style>
+<!-- <style>
   button {
     height: fit-content;
     padding: 10px;
@@ -16,4 +16,4 @@
     border-radius: 5px;
     margin: 1rem;
   }
-</style>
+</style> -->
