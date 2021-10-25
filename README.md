@@ -1,15 +1,17 @@
 # Svelte Training
 
 For Svelte learning. For now it is only a static webpage.
-User can register new patients, edit patients and read patients' detail.
+The homepage is a patient list (for now the list is just dummy patient data)
+User can register new patients, edit patients and view their details.
 
 ## To-do
 
 Add the following capabilies:
 
 - dockerize the repo
-- fetch patient list from API (either from open server or local server)
+- patient filtering/searching
 - add pagination
+- fetch patient list from API (either from open server or local server)
 - ...
 
 ## To run
