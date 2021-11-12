@@ -11,6 +11,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.11",
     "@tsconfig/svelte": "^2.0.1",
+    "axios": "^0.24.0",
     "prettier": "^2.4.1",
     "prettier-plugin-svelte": "^2.4.0",
     "svelte": "^3.37.0",
@@ -19,5 +20,9 @@
     "tslib": "^2.2.0",
     "typescript": "^4.3.2",
     "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "@shoelace-style/shoelace": "^2.0.0-beta.58",
+    "medblocks-ui": "0.0.70"
   }
 }

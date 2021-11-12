@@ -17,8 +17,8 @@
 <header>
   <h2>{fullName}</h2>
   <span>
-    <button on:click={handleView}>View</button>
-    <button on:click={handleEdit}>Edit</button>
+    <sl-button class="button" size="medium" type="primary" on:click={handleView}>View</sl-button>
+    <sl-button class="button" size="medium" type="primary" on:click={handleEdit}>Edit</sl-button>
   </span>
 </header>
 
@@ -27,13 +27,9 @@
     display: flex;
     justify-content: space-between;
   }
-  button {
+  .button {
     margin: 1rem;
-    min-height: 50px;
-    min-width: 100px;
-    font-size: larger;
-    border-radius: 5px;
+
     box-shadow: none;
-    background-color: salmon;
   }
 </style>

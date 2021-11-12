@@ -1,11 +1,12 @@
-<div class="card">
+<sl-card class="card">
   <slot>Patient Details</slot>
-</div>
+</sl-card>
 
 <style>
   .card {
-    padding: 10px 20px;
+    padding: 5px 5px;
     margin-top: 1rem;
-    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
   }
 </style>

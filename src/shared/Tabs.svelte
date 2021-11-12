@@ -4,9 +4,9 @@
 
 <div>
   {#each $items as item, i}
-    <button
+    <sl-button type="default"
       class:active={$activeTab == item}
-      on:click={() => ($activeTab = item)}>{item}</button
+      on:click={() => ($activeTab = item)}>{item}</sl-button
     >
   {/each}
 </div>
